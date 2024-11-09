@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq_donations",
+  "info": {
+    "singularName": "faq-donation",
+    "pluralName": "faq-donations",
+    "displayName": "faq donation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
